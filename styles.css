@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: "Montserrat";
+}
+
+.pong {
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #08044e;
+}
+.pong canvas {
+    border: 10px solid rgb(84, 200, 84);
+    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width:600px) {
+    .pong canvas{
+        width: 100%;
+    }
+}
